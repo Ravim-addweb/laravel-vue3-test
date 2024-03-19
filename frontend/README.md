@@ -1,5 +1,3 @@
-# student-manager-vue
-
 ## Project setup
 ```
 yarn install
