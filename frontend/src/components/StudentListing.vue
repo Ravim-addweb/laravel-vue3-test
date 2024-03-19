@@ -77,7 +77,7 @@
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
           <tr v-if="students.length === 0">
-            <td class="px-6 py-4 text-left" colspan="3">No data available</td>
+            <td class="px-6 py-4 text-center" colspan="3">No data available</td>
           </tr>
           <tr v-for="(student, index) in students" :key="index">
             <td class="px-6 py-4 text-left whitespace-nowrap">
